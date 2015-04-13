@@ -98,9 +98,10 @@ map ,sr :xccmd revealInSymbolNavigator<CR>
 " Editor
 """"""""""""""""""""""""""""""""""""""""""""""""""
 " move between words insertMode
- imap <C-h> <esc>i
- imap <C-l> <esc>la
-" imap <C-h> <esc>ji
+ imap <C-h> <Left>
+ imap <C-l> <Right>
+ imap <C-h> <Down>
+ imap <C-k> <Up>
 " Show Completions
 "map ,c :xccmd complete<CR>
 " Edit all in scope
